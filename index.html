@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napelemek</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="mousefollow"></div>
+        <h1 id="mainH">Napelem<br>&<br>Napenergia</h1>
+        <section id="intro">
+            <div class="texts">
+                <h2>Mi a napelem</h2>
+                <p>A napelem, idegen szóval "photovolatic panel" a Nap sugárzásából alakít közvetlenül elektromos
+                    energiát.
+                    Ezt az energiát felhasználják háztartási gépek működtetésére, ill. fűtésre, és ezek mellet minden
+                    egyébre.</p>
+                <p>A még hatákonyabb energiafelhasználás érdekében lehet felszerelni külön napkollektorokat, ami
+                    folyadékot
+                    melegít a Nap energiájából, így hasznosítva a hőveszteséget is.</p>
+            </div>
+            <div class="imgs">
+                <img src="napelem1.jpg" alt="Napelemek lefektetve" id="panel1">
+            </div>
+        </section>
+        <section id="types">
+            <h2>Típusok</h2>
+            <div class="slideshow">
+                <div class="elements">
+                    <div class="element" id="amorf">
+                        <img src="amorphous.jpg" alt="amorf">
+                        <h3>Amorf</h3>
+                        <ul>
+                            <li>Vékony</li>
+                            <li>Olcsó</li>
+                            <li>5-8% hatásfok</li>
+                            <li>25 év után is 80% hatékonyság</li>
+                            <li>Hajlékony</li>
+                            <li>Szögtől nagyban független</li>
+                        </ul>
+                    </div>
+                    <div class="element" id="mono-crystal">
+                        <img src="monocrystal.jpg" alt="monokristályos">
+                        <h3>Mono-kristályos</h3>
+                        <ul>
+                            <li>A panel cellákra van osztva</li>
+                            <li>Egy panelen általában 60-72 cella</li>
+                            <li>17-20% hatásfok</li>
+                            <li>Drága</li>
+                            <li>Szögtől nagyban függ</li>
+                        </ul>
+                    </div>
+                    <div class="element" id="poly-crystal">
+                        <img src="polycrytal.jpg" alt="polikristályos">
+                        <h3>Polikristályos</h3>
+                        <ul>
+                            <li>A panel cellákra van osztva</li>
+                            <li>Felső-közép árkategória</li>
+                            <li>10-15% hatásfok</li>
+                            <li>Szögtől közepesen függő hatékonyság</li>
+                        </ul>
+                    </div>
+                    <div class="element" id="concentrated">
+                        <img src="concentrated.jpg" alt="koncentrált">
+                        <h3>Koncentrált PV cellás</h3>
+                        <ul>
+                            <li>Legmagasabb hatásfok</li>
+                            <li>Akár 30-40% is</li>
+                            <li>Nagyon drága</li>
+                            <li>Nagyon szögfüggő</li>
+                            <li>Viszonylag könnyen előállítható</li>
+                            <li>Magas jövőbeli potenciál</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <div class="left clickable"><ion-icon name="chevron-back-outline"></ion-icon></div>
+                    <div class="right clickable"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+                </div>
+            </div>
+        </section>
+        <section id="recycle">
+            <div class="texts">
+                <h2>Újrahasznosítás</h2>
+                <p>A napelemeket nehéz újrahasznosítani. Tele vannak nehezen, vagy nem újrahsznosítható anyagokkal. Így majdnem hogy hiába zöld energiaforrás, ha a gyártása és a szemét eltakarítása is szennyezi a környezetet, nem is kicsit.</p>
+                <p>Azért nehéz valójában ez a folyamat, mert a különféle fémeket és műanyagokat utólag egy nagy kihívás elkülöníteni egymástól. <br>
+                Kutatók már dolgoznak küldönféle hatékony ezüst-kivonó módszereken, amelyekkel könnyen és sok ezüstöt nyerhetünk majd vissza a panelekből (is).</p>
+            </div>
+            <div class="imgs">
+                <img src="recycling-symbol.jpg" alt="Újrahasznosítás" id="recycle">
+            </div>
+        </section>
+    </main>
+    <footer>Gál Attila Péter 10.F</footer>
+</body>
+
+</html>
