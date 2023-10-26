@@ -4,10 +4,12 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    cursor: none;
 }
 body{
-    padding: 1em;
+   
 }
+
 *{
     color: #000;
     font-family: 'Quicksand', sans-serif;
@@ -26,10 +28,33 @@ h2{
 p{
     font-size: 1.75em;
 }
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+section{
+    width: 100%;
+}
+footer{
+    padding: 2em;
+    background-color: #222;
+}
+
+
+
+
+
+
+
+
+
 
 
 
 /*----------------------------------------*/
+.slideshow * {
+    transition: 1s;
+}
 .slideshow img{
     width: 20em;
 }
@@ -50,6 +75,9 @@ p{
 .slideshow .elements .element p{
     font-size: 1em;
     width: 20em;
+}
+.slideshow .elements .element h3{
+    margin-left: 1em;
 }
 .slideshow .navigation{
     width: 20em;
@@ -76,6 +104,9 @@ p{
 }
 .slideshow{
     width: 100vw;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 .mousefollow{
     transition: 0s;
